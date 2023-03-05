@@ -33,4 +33,12 @@ body {
   display: block;
   background: #5989ff;
   border-radius: 50%;
+  animation: animate ease-in-out 2s infinite;
+}
+
+.container .loader.one span:nth-child(2) {
+  left: 50%;
+  background: rgba(56, 109, 241, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
