@@ -41,4 +41,16 @@ body {
   background: rgba(56, 109, 241, 0.05);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
+  animation-delay: -1s;
+}
+
+@keyframes animate {
+  0%, 100% {
+    transform: translateX(-80px );
+  }
+  50% {
+    transform: translateX(80px);
+  }
+}
+    
 }
