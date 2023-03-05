@@ -53,4 +53,15 @@ body {
   }
 }
     
+/* add shadow */
+
+.container .loader.one span::before {
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    left: -20%;
+    width: 140%;
+    height: 40px;
+    border-radius: 50%;
+    background: radial-gradient(rgba(0, 0, 0, 0.04), transparent, transparent);
 }
