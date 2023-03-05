@@ -56,7 +56,8 @@ body {
 
 /* add shadow */
 
-.container .loader.one span::before {
+.container .loader.one span::before,
+.container .loader.two span:nth-child(1)::before {
   content: "";
   position: absolute;
   bottom: -100px;
@@ -96,8 +97,17 @@ body {
   border-radius: 50%;
   z-index: 1;
   overflow: hidden;
+  animation: rotateCircle 1s linear infinite;
 }
 
+@keyframes rotateCircle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 .container .loader.two span:nth-child(2)::before {
   content: "";
