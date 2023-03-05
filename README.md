@@ -2,7 +2,7 @@
 
 ![cover](loader.png)
 
-[livesite](https://tajwarsaiyeed.github.io/glassmorphism-loader)
+[Glassmorphism Loader](https://tajwarsaiyeed.github.io/glassmorphism-loader)
 
 ```
 glassmorphism-loader
